@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/olive.jpeg">
+</head>
+<body>
+   <header
+      class="w-[80vw] mx-auto bg-[#2d4d36] text-white fixed mt-4 top-0 left-1/2 -translate-x-1/2 p-3 justify-between items-center rounded-full flex">
+      <div id="logo" class="flex items-center gap-x-3">
+        <div
+          class="bg-[#ffa807] p-2 h-fit w-fit flex justify-center items-center rounded-full text-green-700 font-bold text-xl"
+        >
+          O
+        </div>
+        <p class="text-xl font-semibold">Olivia</p>
+      </div>
+      <nav>
+        <ul class=" gap-x-8 md:flex hidden">
+          <li class="hover:text-[#ffa807] hover:text-xl hover:underline animate-bounce"><a href="./home.html">Home</a></li>
+          <li"><a href="./services.html">Services</a></li>
+          <li"><a href="./blogs.html">Blogs</a></li>
+          <li"><a href="testimonials.html">Testimonials</a></li>
+          <li"><a href="./about.html">About</a></li>
+          <li"><a href="./contact_us.html">Contact_Us</a></li>
+        </ul>
+      </nav>
+      <div
+        id="contact_btn"
+        class="bg-white text-black px-6 py-2 rounded-full font-bold"
+      >
+        Contact Me
+      </div>
+    </header>
+  <section id="sec-6" class="p-16 h-[110vh] w-[80vw] mx-auto mt-[10%] ">
+      <header class=" w-fit mx-auto" ><h3 class="font-medium text-xl">-Clients Testimonials</h3>
+      <h1 class="font-bold text-3xl">The Impact of My Work:</h1>
+      <h1 class="font-medium text-3xl"><i>-Client Testimonials</i></h1></header>
+      <main class="grid grid-rows-3  gap-2">
+        <div class=" h-[160px]"><img src="./images/Rating.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Architecto molestias beatae molestiae fugiat a! Modi ea quo provident asperiores,
+           omnis saepe consectetur odio quasi distinctio explicabo animi non fugiat itaque.</p>
+          <div class="flex"><img src="./images/Rate_img.png" alt="rate"><div><h1><b>Leslie Alexander</b></h1><h2>Founder,EV Charger Station</h2></div></div></div>
+        <div><img src="./images/Rating.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Architecto molestias beatae molestiae fugiat a! Modi ea quo provident asperiores,
+           omnis saepe consectetur odio quasi distinctio explicabo animi non fugiat itaque.</p>
+          <div class=" flex"><img src="./images/Rate2_img.png" alt="rate"><div><h1><b>Albert Flores</b></h1><h2>Software Agency</h2></div></div></div>
+        <div ><img src="./images/Rating.png"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Architecto molestias beatae molestiae fugiat a! Modi ea quo provident asperiores,
+           omnis saepe consectetur odio quasi distinctio explicabo animi non fugiat itaque.</p>
+          <div class="flex"><img src="./images/Rate3_img.png" alt="rate"><div><h1><b>Aleanor Pena</b></h1><h2>Fitness App</h2></div></div></div>
+          <button class="h-[50px] w-[200px] rounded-full bg-yellow-600 mx-auto">Load More Testimonials</button>
+      </main>
+    </section>
+</body>
+</html>

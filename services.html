@@ -1,0 +1,83 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/olive.jpeg">
+ </head>
+ <body>
+   <header
+      class="w-[80vw] mx-auto bg-[#2d4d36] text-white fixed mt-4 top-0 left-1/2 -translate-x-1/2 p-3 justify-between items-center rounded-full flex">
+      <div id="logo" class="flex items-center gap-x-3">
+        <div
+          class="bg-[#ffa807] p-2 h-fit w-fit flex justify-center items-center rounded-full text-green-700 font-bold text-xl"
+        >
+          O
+        </div>
+        <p class="text-xl font-semibold">Olivia</p>
+      </div>
+      <nav>
+        <ul class=" gap-x-8 md:flex hidden">
+          <li class="hover:text-[#ffa807] hover:text-xl hover:underline animate-bounce"><a href="./home.html">Home</a></li>
+          <li"><a href="./services.html">Services</a></li>
+          <li"><a href="./blogs.html">Blogs</a></li>
+          <li"><a href="testimonials.html">Testimonials</a></li>
+          <li"><a href="./about.html">About</a></li>
+          <li"><a href="./contact_us.html">Contact_Us</a></li>
+        </ul>
+      </nav>
+      <div
+        id="contact_btn"
+        class="bg-white text-black px-6 py-2 rounded-full font-bold"
+      >
+        Contact Me
+      </div>
+    </header>
+    
+  <div class="bg-yellow-400 mx-auto mt-[10%] w-[80vw] flex flex-wrap justify-center gap-10 py-4 rounded-xl shadow relative z-1 ">
+    <a href="#" class="text-green-900 font-semibold flex items-center gap-2 hover:underline">
+      ✦ App Design
+    </a>
+    <a href="#" class="text-green-900 font-semibold flex items-center gap-2 hover:underline">
+      ✦ Website Design
+    </a>
+    <a href="#" class="text-green-900 font-semibold flex items-center gap-2 hover:underline">
+      ✦ Dashboard
+    </a>
+    <a href="#" class="text-green-900 font-semibold flex items-center gap-2 hover:underline">
+      ✦ Wireframe
+    </a>
+    
+  </div>
+  
+    <div>
+     
+      <section id="sec-2" style="width: 80vw;height: 100vh;" class="mx-auto">
+          <div class="text-5xl"><h1>-Services</h1> </div>
+          <div class="flex place-content-between" ><h1 class="text-5xl">Services <b>I Provide</b></h1>
+            <div style="width: 200px;height: 50px;" class="mt-0 w-100 float-right bg-yellow-600 rounded-full font-normal text-xl "><button class=" bg-[#2d4d36]  rounded-full font-extralight text-xl ml-[5px] my-[5px] text-white" style="width: 80%;height: 80%;">View All Services </button>→</div>
+          </div>
+      <div class="bg-white h-full max-h-80 grid grid-cols-3 grid-rows-1 gap-4 ">
+        <card class="place-items-center justify-center p-8 bg-indigo-100 m-5 rounded-lg"><img src="./images/ux_icon1.png" class="mr-[200px]">
+          <h1><b>UI/UX Design</b></h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+          <a class="font-semibold">Learn more</a>
+        </card>
+        <card class="place-items-center justify-center p-8 bg-indigo-100 m-5 rounded-lg "><img src="./images/ux_icon2.png" class="mr-[200px]">
+         <h1><b>UI/UX Design</b></h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+          <a class="font-semibold">Learn more</a></card>
+        <card class="place-items-center justify-center p-8 bg-indigo-100 m-5 rounded-lg"><img src="./images/ux_icon3.png" class="mr-[200px]">
+         <h1><b>UI/UX Design</b></h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+          <a class="font-semibold">Learn more</a></card>
+      </div>
+     
+    </section>
+ </body>
+ </html>
+ 
+ 

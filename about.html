@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/olive.jpeg">
+ </head>
+ <body>
+   <header
+      class="w-[80vw] mx-auto bg-[#2d4d36] text-white fixed mt-4 top-0 left-1/2 -translate-x-1/2 p-3 justify-between items-center rounded-full flex">
+      <div id="logo" class="flex items-center gap-x-3">
+        <div
+          class="bg-[#ffa807] p-2 h-fit w-fit flex justify-center items-center rounded-full text-green-700 font-bold text-xl"
+        >
+          O
+        </div>
+        <p class="text-xl font-semibold">Olivia</p>
+      </div>
+      <nav>
+        <ul class=" gap-x-8 md:flex hidden">
+          <li class="hover:text-[#ffa807] hover:text-xl hover:underline animate-bounce"><a href="./home.html">Home</a></li>
+          <li"><a href="./services.html">Services</a></li>
+          <li"><a href="./blogs.html">Blogs</a></li>
+          <li"><a href="testimonials.html">Testimonials</a></li>
+          <li"><a href="./about.html">About</a></li>
+          <li"><a href="./contact_us.html">Contact_Us</a></li>
+        </ul>
+      </nav>
+      <div
+        id="contact_btn"
+        class="bg-white text-black px-6 py-2 rounded-full font-bold"
+      >
+        Contact Me
+      </div>
+    </header>
+   <section id="sec-3" style="width: 80vw;height: 80vh;" class="mx-auto mt-[10%] bg-[#2d4d36] grid grid-cols-2 grid-rows-1">
+      <div><img src="./images/Olivia_Smith.png" alt="Olivia_Smith"></div>
+        <div class="p-5 "><div class="mt-5"><h1 class="text-white">-About Me</h1>
+        <h1><b class="font-semibold text-white text-4xl">Who is </b><i class="font-semibold text-yellow-400 text-4xl">Olivia Smith?</i></h1>
+            <p class="text-white font-extralight">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione, 
+              vitae tenetur rerum debitis natus minima officia porro, dolor ipsam ex.</p>
+            <div class="flex p-8">
+              <div class="p-8"><img src="./images/600.png"/><h1 class= "font-semibold text-white font-thin p-2" >Project Completed </h1></div>
+              <div class="p-8"><img src="./images/50.png"/><h1 class="font-semibold text-white  font-thin">Industry Covered</h1></div>
+              <div class="p-8"><img src="./images/18.png"/><h1 class="font-semibold text-white  font-thin">Years of Experience</h1></div>
+            </div>
+            
+            <div style="float:left;width: 200px;height: 50px;" class="mt-0 w-100 float-right bg-yellow-600 rounded-full font-normal text-xl "><button class=" bg-[#2d4d36]  rounded-full font-extralight text-xl ml-[5px] my-[5px] text-white" style="width: 80%;height: 80%;">View All Services</button>→</div>
+            
+      </div>
+      <div ><img src="./images/signature.png"/></div>
+    </div>
+    </section>
+ </body>
+ </html>
